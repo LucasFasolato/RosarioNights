@@ -1,6 +1,8 @@
 import React from 'react'
 import "./SignUp.css"
+import {useNavigate } from "react-router-dom";
 function SignUp() {
+    const navigate = useNavigate();
   return (
     <div className='signup-content'>
         <h1> - CREAR USUARIO - </h1>
@@ -30,7 +32,7 @@ function SignUp() {
                         <p>Estoy de acuerdo con los <a href="https://www.youtube.com/" target="_BLANK" rel="noreferrer">Términos y condiciones</a>.</p>
                     </div>
                     <div className='display-signin'>
-                        <p>¿Ya tienes una cuenta? <a href="https://www.youtube.com/" target="_BLANK" rel="noreferrer"> Iniciar sesión</a></p>
+                        <p>¿Ya tienes una cuenta? <a onClick={() => navigate("/login")}>Iniciar sesión</a></p>
                     </div>
                     <div className='form__section'> 
                         <input type="submit" className='form__button'></input>

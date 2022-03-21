@@ -1,0 +1,117 @@
+.signup-content {
+  background-image: url(./../imgs/Fondo1.png);
+  width: 100vw;
+  height: 100vh;
+  /* Para que la imagen de fondo no se repita */
+
+  /* background-repeat: no-repeat; */
+
+  /* La imagen se fija en la ventana de visualización para que la altura de la imagen no supere a la del contenido */
+
+  /* background-attachment: fixed; */
+
+  /* La imagen de fondo se reescala automáticamente con el cambio del ancho de ventana del navegador */
+
+  background-size: cover;
+
+  /* Se muestra un color de fondo mientras se está cargando la imagen
+        
+        de fondo o si hay problemas para cargarla */
+  /* z-index: 10; */
+}
+
+.flex-container {
+  /* position: absolute; */
+  z-index: 150;
+  /* top: 100px;
+      left: 30%;  */
+  display: block;
+  /* align-items: center; */
+  /* flex-wrap: wrap; */
+  /* justify-content: center; */
+  background-color: #003;
+  margin: auto;
+  margin-top: 40px;
+  border-radius: 8px;
+  /* border: 15px solid; */
+  max-width: 650px;
+  /* z-index: 100; */
+  opacity: 95%;
+  padding-top: 25px;
+}
+
+h1 {
+  text-align: center;
+  color: #003;
+  margin-top: 0px;
+  padding-top: 40px;
+  margin-bottom: 10px;
+  font-family: "Inter", sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+p {
+  font-family: "Inter", sans-serif;
+  color: #fff;
+  font-size: 18px;
+}
+p a {
+  font-family: "Inter", sans-serif;
+  color: #fff;
+  font-size: 18px;
+}
+
+.form {
+  /* flex: 1; */
+  text-align: center;
+  padding: 10px;
+  /* order: 5; */
+}
+
+.form__section {
+  z-index: 200;
+}
+
+.form__input {
+  width: 80%;
+  padding: 16px 12px;
+  margin-bottom: 20px;
+  border: 2px solid #069;
+
+  background-color: transparent;
+  color: #bff;
+  font-size: 16px;
+  border-radius: 8px;
+}
+
+.form__input:focus {
+  background-color: #002;
+  border: none;
+  outline: none;
+  border: 2px solid #bff;
+}
+.button-container{
+    display: inline-flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.form__button {
+  background: linear-gradient(to top, #3ad, #3ef);
+  color: #002;
+  font-size: 20px;
+  /* font-weight: bold; */
+  /* border-radius: 6px; */
+  cursor: pointer;
+  justify-content: center;
+  margin-right: 100px;
+}
+
+.form__button:hover {
+  background: linear-gradient(to bottom, #069, #06d);
+  border-color: #002;
+  color: #fff;
+}
+
+

@@ -60,6 +60,8 @@
     font-family: "Inter", sans-serif;
     color: #fff;
     font-size: 18px;
+    cursor: pointer;
+    text-decoration: underline;
   }
   
   .form {
