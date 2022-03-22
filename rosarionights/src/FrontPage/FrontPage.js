@@ -32,6 +32,9 @@ function FrontPage() {
                 </nav>
             </header>
         </div>
+        <div className='img__fondo'>
+
+        </div>
     </div>
   )
 }

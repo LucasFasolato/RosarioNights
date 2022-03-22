@@ -123,3 +123,11 @@
       background-color: #69c;
     }
   }
+
+.img__fondo {
+  background-image: url(./../imgs/Fondo2.png);
+  margin-top: -16px;
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+}
