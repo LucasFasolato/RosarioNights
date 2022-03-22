@@ -3,6 +3,7 @@ import './App.css';
 import { Navigate, Route, Routes, BrowserRouter as Router } from "react-router-dom";
 import SignUp from "./SignUp/SignUp"
 import SignIn from "./SignIn/SignIn"
+import FrontPage from "./FrontPage/FrontPage"
 
 function AppWrapper() {
   return (
@@ -11,6 +12,7 @@ function AppWrapper() {
         <Route path="/" element={<Navigate to="/register" />} />
         <Route path="/register" element={<SignUp />} />
         <Route path="/login" element={<SignIn />} />
+        <Route path="/home" element={<FrontPage />} />
       </Routes>
     </div>
   );

@@ -1,0 +1,125 @@
+.nav__responsive-ul {
+    display: none;
+  }
+  
+  .nav {
+    background-color: #005;
+    width: 100%;
+    z-index: 200;
+    margin-top: -16px;
+  }
+  
+  .nav__li {
+    display: block;
+    padding: 20px 30px;
+    color: #fff;
+    /* text-align: right; */
+    /* margin-right: 30px; */
+    cursor: pointer;
+  }
+
+  .nav__li a {
+    color: #fff;
+    margin-left: 5px;
+    text-decoration: none;
+  }
+  
+  .nav__li:hover {
+    color: #06f;
+  }
+  .nav__li:hover > a {
+    color: #06f;
+  }
+
+  .nav__li-right {
+    display: block;
+    padding: 10px;
+    color: #fff;
+    text-align: right;
+    margin-right: 30px;
+    justify-content: right;
+    cursor: pointer;
+  }
+  
+  .nav__li-right a {
+    color: #fff;
+    margin-left: 5px;
+    text-decoration: none;
+  }
+  
+  .nav__li-right:hover {
+    color: #06f;
+  }
+  .nav__li-right:hover > a {
+    color: #06f;
+  }
+  
+  .nav__responsive-button-container {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    font-size: 30px;
+    background-color: #69c;
+    height: 50px;
+    text-align: right;
+    z-index: 100;
+    padding: 20px 0px 0px 0px;
+    margin-top: -20px;
+  }
+  
+  .nav__responsive-button {
+    margin-right: 5%;
+  }
+  
+  @media only screen and (max-width: 610px) {
+    .nav__ul {
+      display: none;
+    }
+  
+    .nav__li-container {
+      position: absolute;
+      top: -1000px;
+      left: 0px;
+      background-color: #bff;
+      margin-top: 50px;
+      transition: all 0.85s;
+      width: 75%;
+    }
+  
+    .nav__responsive-ul {
+      z-index: 99;
+      display: block;
+      position: absolute;
+      top: 0px;
+      width: 100%;
+      background-color: #69c;
+      height: 50px;
+    }
+  
+    .nav__responsive-ul:hover > .nav__li-container {
+      top: 0px;
+      height: 100vh;
+    }
+  
+    .nav__responsive-button:hover > .signup-content, .flex-container{
+      display: none;
+    }
+  
+    .nav__responsive-li {
+      width: 100%;
+      padding: 20px 20px;
+      margin-top: 30px;
+      margin-bottom: -30px;
+    }
+  
+    .nav__responsive-li a {
+      color: #016;
+      text-decoration: none;
+      padding: 10px;
+    }
+    .nav {
+      height: 55px;
+      background-color: #69c;
+    }
+  }

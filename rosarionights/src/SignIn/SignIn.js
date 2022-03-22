@@ -17,10 +17,10 @@ function SignIn() {
                     </div>
                     <div className='button-container'>
                         <div className='form__section'> 
-                            <button type="button" className='form__button'onClick={() => navigate("/register")}>Atras</button>
+                            <button type="button" className='form__button' onClick={() => navigate("/register")}>Atras</button>
                         </div>
                         <div className='form__section'> 
-                            <input type="submit" className='form__button'></input>
+                            <input type="submit" className='form__button' onClick={() => navigate("/home")}></input>
                         </div>
                     </div>
                     
