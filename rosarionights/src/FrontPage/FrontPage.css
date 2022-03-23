@@ -6,32 +6,86 @@
     background-color: #000;
     width: 100%;
     z-index: 200;
-    position: absolute;
+    /* position: absolute;
     top: -75px;
     left: 0px;
-    height: 65px;
+    height: 65px; */
     /* border-bottom: 5px solid #fff; */
     outline:  5px solid #fff;
   }
+  .display__nav {
+    display: flex;
+  }
 
-  .nav__ul {
+  .nav__ul-left {
     font-family: 'Barlow', sans-serif;
     font-size: 20px;
+
+  }
+
+  .display__nav-left {
+    text-align: left;
+    width: 40%;
+  }
+
+  .display__sb-bt {
+    background: none;
+    border: none;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    margin: auto;
+  }
+
+  .display__sb-lupa {
+    width: 39px;
+    height: 39px;
+
+  }
+  
+  .display__searchbar {
+    display: flex;
+    width: 30%;
+  }
+
+  .input__sb {
+    margin: auto;
+    border: none;
+    height: 20px;
+    padding: 10px;
+    width: 400px;
+    background-color: #eee;
+    margin-right: -30px;
+  }
+  .input__sb::placeholder {
+    font-size: 16px;
+    font-family: 'Barlow', sans-serif;
+    font-weight: bold;
+  }
+
+  .nav__ul-right {
+    font-family: 'Barlow', sans-serif;
+    font-size: 20px;
+  }
+
+  .display__nav-right {
+    text-align: right;
+    width: 30%;
   }
   
   .nav__li {
     /* display: block; */
-    padding: 0px 30px;
+    padding: 10px;
     color: #fff;
     /* text-align: right; */
     /* margin-right: 30px; */
     cursor: pointer;
+    margin-left: 30px;
     font-family: 'Barlow', sans-serif;
   }
 
   .nav__li a {
     color: #fff;
-    margin-left: 5px;
     text-decoration: none;
     font-family: 'Barlow', sans-serif;
   }
@@ -44,12 +98,11 @@
   }
 
   .nav__li-right {
-    display: block;
     padding: 10px;
     color: #fff;
     text-align: right;
     margin-right: 30px;
-    justify-content: right;
+    /* justify-items: right; */
     cursor: pointer;
   }
   
@@ -138,11 +191,13 @@
   }
 body {
   position: absolute;
-  top: 80px;
+  top: 0px;
+  left: 0px;
+  background-color: #000;
+  z-index: 15;
 }
 .img__fondo {
   background-color: #212121;
-  margin-top: -16px;
   width: 100vw;
   height: 100vh;
   background-size: cover;
