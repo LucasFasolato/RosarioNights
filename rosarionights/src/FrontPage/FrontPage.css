@@ -7,9 +7,11 @@
     width: 100%;
     z-index: 200;
     position: absolute;
-    top: -80px;
+    top: -75px;
     left: 0px;
     height: 65px;
+    /* border-bottom: 5px solid #fff; */
+    outline:  5px solid #fff;
   }
 
   .nav__ul {
@@ -153,12 +155,13 @@ body {
   display: block;
   background-color: #1a1a1a;
   width: 35%;
-  border-right: 6px solid #000;
+  border-right: 6px solid #fff;
 }
 .diplay__front-options{
   display: block;
   width: 50%;
-  background: linear-gradient(to bottom, #212121,#000);
+  background-color: #111111;
+  /* background: linear-gradient(to bottom, ,#000); */
 }
 
 .diplay__front-right {
@@ -167,7 +170,7 @@ body {
   background-color: #1a1a1a;
   height: 100vh;
   padding: 15px;
-  border-left:  6px solid #000;
+  border-left:  6px solid #fff;
 }
 .front__title{
   width: 100%;
@@ -176,6 +179,7 @@ body {
 }
 
 h1{
+  margin-top: 10px;
   font-size: 71px;
   color: #fff;
   font-family: 'Barlow', sans-serif;
@@ -197,17 +201,17 @@ h1{
 
 .button__op {
   cursor: pointer;
-  border: 3px solid #fff;
-  color:#000;
+  outline: 10px solid #fff;
+  border: 2px solid #fff;
   font-weight: bold;
   font-size: 25px;
   background-color: #005;
-  min-width: 400px;
-  min-height: 150px;
+  min-width: 550px;
+  min-height: 200px;
 }
 .text__button {
   color: #fff;
-  margin-top: -60px;
+  margin-top: -90px;
   font-size: 25px;
   font-weight: 600;
   text-align: left;
@@ -216,6 +220,7 @@ h1{
 .display__button {
   text-align: center;
   margin-top: 50px;
+  margin-bottom: -30px;
 }
 
 .boliche__bg {
@@ -248,6 +253,7 @@ h1{
 
 .display__right-title {
   display: flex;
+  margin-top: 20px;
   
 }
 
