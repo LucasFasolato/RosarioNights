@@ -125,9 +125,101 @@
   }
 
 .img__fondo {
-  background-image: url(./../imgs/Fondo2.png);
+  background-color: #1a1a1a;
   margin-top: -16px;
   width: 100vw;
   height: 100vh;
   background-size: cover;
+}
+.display__front {
+  display: flex;
+}
+
+.display__front-left{
+  display: block;
+  width: 50%;
+}
+.diplay__front-right {
+  display: block;
+  width: 50%;
+}
+.front__title{
+  width: 50%;
+}
+
+h1{
+  font-size: 40px;
+  color: #fff;
+}
+
+.front__text {
+  width: 100%;
+}
+
+.front__text > p{
+  padding: 0px 30px;
+  font-size: 25px;
+}
+
+.button__op {
+  cursor: pointer;
+  border: 3px solid #fff;
+  color:#000;
+  font-weight: bold;
+  font-size: 25px;
+  background-color: #005;
+  min-width: 400px;
+  min-height: 150px;
+}
+.text__button {
+  color: #fff;
+  margin-top: -60px;
+  font-size: 25px;
+  font-weight: 600;
+  text-align: left;
+}
+
+.display__button {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.boliche__bg {
+  background-image: url(./../imgs/Fondo5.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 90%;
+}
+
+.bares__bg {
+  background-image: url(./../imgs/Fondo3.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 90%;
+}
+
+.propuestas__bg {
+  background-image: url(./../imgs/Fondo4.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 90%;
+}
+
+.comunidad__bg {
+  background-image: url(./../imgs/Fondo6.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 90%;
+}
+
+.display__footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.display__logo {
+  width: 50px;
+  height: 50px;
+  margin: 15px;
 }

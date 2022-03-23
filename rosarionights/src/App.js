@@ -9,7 +9,7 @@ function AppWrapper() {
   return (
     <div>
       <Routes>
-        <Route path="/" element={<Navigate to="/register" />} />
+        <Route path="/" element={<Navigate to="/home" />} />
         <Route path="/register" element={<SignUp />} />
         <Route path="/login" element={<SignIn />} />
         <Route path="/home" element={<FrontPage />} />
