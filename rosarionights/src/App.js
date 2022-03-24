@@ -8,7 +8,7 @@ import Boliches from "./Boliches/Boliches"
 import Bares from "./Bares/Bares"
 import Propuestas from "./Propuestas/Propuestas"
 import Comunidad from "./Comunidad/Comunidad"
-
+import BluePark from "./Boliches/PageBoliche/BluePark"
 function AppWrapper() {
   return (
     <div>
@@ -21,6 +21,8 @@ function AppWrapper() {
         <Route path="/home/bares" element={<Bares />} />
         <Route path="/home/propuestas" element={<Propuestas />} />
         <Route path="/home/comunidad" element={<Comunidad />} />
+
+        <Route path="/home/boliches/bluepark" element={<BluePark/>} />
       </Routes>
     </div>
   );

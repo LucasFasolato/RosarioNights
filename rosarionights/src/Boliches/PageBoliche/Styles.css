@@ -1,0 +1,46 @@
+.boliches__bg {
+  /* background-image: url(./../imgs/Fondo5.png); */
+  background-color: #121212;
+  width: 100vw;
+  height: 100vh;
+}
+
+.display__portada {
+  display: block;
+  background-image: url(./../imgs-boliches/blue.png);
+  width: 100vw;
+  height: 300px;
+  max-height: 200px;
+  background-size: contain;
+  background-position: 0px -20px;
+}
+
+.display__img {
+}
+
+.title__boliches {
+  font-size: 50px;
+  text-align: center;
+  font-family: "Barlow", sans-serif;
+  color: #fff;
+}
+
+.display__op {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.display__box {
+  width: 20%;
+  height: 500px;
+}
+
+.display__btt {
+  width: 400px;
+  height: 500px;
+  cursor: pointer;
+  /* border: 3px solid #fff; */
+  outline: 4px solid #fff;
+  border-radius: 30px;
+}
