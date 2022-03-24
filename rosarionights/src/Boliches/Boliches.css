@@ -1,12 +1,88 @@
 .boliches__bg {
-  background-image: url(./../imgs/Fondo5.png);
-  background-size: cover;
-  width: 100vw;
-  height: 100vh;
+  /* background-image: url(./../imgs/Fondo5.png); */
+  background-color: #121212;
+
 }
 
 .title__boliches {
-  font-size: 200px;
-  text-align: center;
+  font-size: 50px;
+  text-align: left;
   font-family: "Barlow", sans-serif;
+  padding: 20px;
 }
+
+.display__op {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.display__box {
+  width: 400px;
+  height: 500px;
+  margin: 20px;
+  margin-bottom: 50px;
+}
+
+.display__btt {
+  width: 400px;
+  height: 500px;
+  cursor: pointer;
+  /* border: 3px solid #fff; */
+  outline: 4px solid #fff;
+  border-radius: 30px;
+  margin-left: 20px;
+}
+
+.fondo__blue {
+  background-image: url(./imgs-boliches/blue.png);
+  background-size: cover;
+  background-position: 0px -100px;
+}
+
+.fondo__volt {
+  background-image: url(./imgs-boliches/volt.png);
+  background-size: cover;
+  background-position: -50px 0px;
+}
+
+.fondo__bresh {
+  background-image: url(./imgs-boliches/bresh.png);
+  background-size: contain;
+  background-position: 0px 50px;
+}
+
+.fondo__bohemia {
+  background-image: url(./imgs-boliches/bohemia2.0.png);
+  background-size: cover;
+  background-position: -50px 0px;
+}
+
+.fondo__bound {
+    background-image: url(./imgs-boliches/bound.png);
+    background-size: contain;
+    background-position: 0px 50px;
+  }
+  
+  .fondo__mikha {
+    background-image: url(./imgs-boliches/mikha.png);
+    background-size: cover;
+    background-position: -50px 0px;
+  }
+  
+  .fondo__mora {
+    background-image: url(./imgs-boliches/mora.png);
+    background-size: contain;
+    background-position: 0px 50px;
+  }
+  
+  .fondo__wallas {
+    background-image: url(./imgs-boliches/wallas.png);
+    background-size: contain;
+    background-position: 0px 30px;
+  }
+
+  .fondo__lamarina {
+    background-image: url(./imgs-boliches/lamarina.png);
+    background-size: cover;
+    background-position: -50px 0px;
+  }
