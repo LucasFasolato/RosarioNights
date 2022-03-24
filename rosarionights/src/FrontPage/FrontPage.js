@@ -1,11 +1,11 @@
 import React from 'react'
 import "./FrontPage.css"
-// import {useNavigate } from "react-router-dom";
+import {useNavigate } from "react-router-dom";
 import "https://kit.fontawesome.com/0c38f8891c.js";
 import NavBar from "./../NavBar/NavBar";
 import Footer from '../Footer/Footer';
 function FrontPage() {
-    // const navigate = useNavigate();
+    const navigate = useNavigate();
   return (
     <div>
         <NavBar/>
@@ -25,16 +25,16 @@ function FrontPage() {
                 </div>
                 <div className='diplay__front-options'>
                     <div className='display__button'>
-                        <button className='button__op boliche__bg'><p className='text__button'>BOLICHES</p></button>   
+                        <a onClick={() => navigate("/home/boliches")}><button className='button__op boliche__bg'><p className='text__button'>BOLICHES</p></button></a>  
                     </div>  
                     <div className='display__button'>
-                        <button className='button__op bares__bg'><p className='text__button'>BARES</p></button>   
+                        <a onClick={() => navigate("/home/bares")}><button className='button__op bares__bg'><p className='text__button'>BARES</p></button></a>
                     </div>  
                     <div className='display__button'>
-                        <button className='button__op propuestas__bg'><p className='text__button'>PROPUESTAS</p></button>   
+                        <a onClick={() => navigate("/home/propuestas")}><button className='button__op propuestas__bg'><p className='text__button'>PROPUESTAS</p></button></a>   
                     </div>  
                     <div className='display__button'>
-                        <button className='button__op comunidad__bg'><p className='text__button'>COMUNIDAD</p></button>   
+                        <a onClick={() => navigate("/home/comunidad")}><button className='button__op comunidad__bg'><p className='text__button'>COMUNIDAD</p></button></a>  
                     </div>  
                 </div>
                 <div className='diplay__front-right'>
