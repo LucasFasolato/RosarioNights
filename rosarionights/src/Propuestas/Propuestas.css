@@ -1,4 +1,12 @@
 .propuestas__color {
-    background-color: yellow;
-    background-size: cover;
+  background-image: url(./../imgs/Fondo4.png);
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
+
+.title__propuestas {
+  font-size: 200px;
+  text-align: center;
+  font-family: "Barlow", sans-serif;
 }

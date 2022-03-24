@@ -1,4 +1,12 @@
-.boliches__color {
-    background-color: blue;
-    background-size: cover;
+.boliches__bg {
+  background-image: url(./../imgs/Fondo5.png);
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
+
+.title__boliches {
+  font-size: 200px;
+  text-align: center;
+  font-family: "Barlow", sans-serif;
 }

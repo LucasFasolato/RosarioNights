@@ -13,8 +13,8 @@ function NavBar() {
                 <div className='display__nav'>
                     <div className='display__nav-left'>
                         <ul className='nav__ul-left'>
-                            <li className='nav__li fas fa-home'><a href="#"> Inicio</a></li>
-                            <li className='nav__li fas fa-user-friends'><a href="#"> Boliches</a></li>
+                            <li className='nav__li fas fa-home'><a href="/home"> Inicio</a></li>
+                            <li className='nav__li fas fa-user-friends'><a href="home/boliches"> Boliches</a></li>
                             <li className='nav__li fas fa-question-circle'><a target="_BLANK" href="https://www.instagram.com/lucasfasolato/" rel="noreferrer"> Contacto</a></li>
                         </ul> 
                     </div>

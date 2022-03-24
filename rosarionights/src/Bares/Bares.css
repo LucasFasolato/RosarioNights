@@ -1,4 +1,12 @@
 .bares__color {
-    background-color: red;
-    background-size: cover;
+  background-image: url(./../imgs/Fondo3.png);
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
+
+.title__bares {
+  font-size: 200px;
+  text-align: center;
+  font-family: "Barlow", sans-serif;
 }
