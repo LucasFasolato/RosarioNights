@@ -1,58 +1,14 @@
 import React from 'react'
 import "./FrontPage.css"
-import {useNavigate } from "react-router-dom";
+// import {useNavigate } from "react-router-dom";
 import "https://kit.fontawesome.com/0c38f8891c.js";
-import logoFb from './logos/LogoFB.png';
-import logoTw from './logos/LogoTW.png';
-import logoYt from './logos/LogoYT.png';
-import logoWsp from './logos/LogoWSP.png';
-import logoIg from './logos/LogoIG.png';
-import lupa from './logos/Lupa.png';
+import NavBar from "./../NavBar/NavBar";
+import Footer from '../Footer/Footer';
 function FrontPage() {
-    const navigate = useNavigate();
+    // const navigate = useNavigate();
   return (
     <div>
-        <div>
-            <header>
-                <nav className='nav'>
-                    <div className='display__nav'>
-                        <div className='display__nav-left'>
-                            <ul className='nav__ul-left'>
-                                <li className='nav__li fas fa-home'><a href="#"> Inicio</a></li>
-                                <li className='nav__li fas fa-user-friends'><a href="#"> Boliches</a></li>
-                                <li className='nav__li fas fa-question-circle'><a target="_BLANK" href="https://www.instagram.com/lucasfasolato/" rel="noreferrer"> Contacto</a></li>
-                            </ul> 
-                        </div>
-                        <div className='display__searchbar'>
-                            <input className='input__sb' placeholder='Buscar...'></input>
-                            <button className='display__sb-bt'><img className='display__sb-lupa' src={lupa}/></button>
-                            
-                        </div>
-                        <div className='display__nav-right'> 
-                            <ul className='nav__ul-right'>
-                                <li className='nav__li-right fa-solid fa-circle-plus'><a onClick={() => navigate("/register")}> Registrarse</a></li>
-                                <li className='nav__li-right fa-solid fa-right-to-bracket'><a onClick={() => navigate("/login")}> Iniciar Sesion</a></li>
-                            </ul>
-                        </div> 
-                    </div>
-                    
-                    
-                    <ul className='nav__responsive-ul'>
-                        <div className='nav__responsive-button-container'>
-                            <div className='nav__responsive-button fas fa-bars'></div>
-                        </div>
-                        
-                        <div className='nav__li-container'>
-                            <li className='nav__responsive-li fas fa-home'><a onClick={() => navigate("/home")}>Inicio</a></li>
-                            <li className='nav__responsive-li fas fa-user-friends'><a href="#">Boliches</a></li>
-                            <li className='nav__responsive-li fas fa-question-circle'><a target="_BLANK" href="https://www.instagram.com/lucasfasolato/" rel="noreferrer"> Contacto</a></li>
-                            <li className='nav__responsive-li fa-solid fa-circle-plus'><a onClick={() => navigate("/register")}> Registrarse</a></li>
-                            <li className='nav__responsive-li fa-solid fa-right-to-bracket'><a onClick={() => navigate("/login")}> Iniciar Sesion</a></li>
-                        </div>
-                    </ul>
-                </nav>
-            </header>
-        </div>
+        <NavBar/>
         <div className='img__fondo'>
             <div className='display__front'>
                 <div className='display__front-left'>
@@ -123,27 +79,8 @@ function FrontPage() {
                     </div>
                 </div>
             </div>
-            <div className='display__footer'>
-                <p>
-                    <a href="https://www.facebook.com/UniversidadAustral" target="_BLANK" rel="noreferrer">
-                        <img src={logoFb} alt="Facebook" className='display__logo'/>
-                    </a>
-                    <a href="https://www.twitter.com/UnivAustral" target="_BLANK" rel="noreferrer">
-                        <img src={logoTw} alt="Twitter"  className='display__logo'/>
-                    </a>
-                    <a href="https://www.instagram.com/univaustral/" target="_BLANK" rel="noreferrer">
-                        <img src={logoIg} alt="Instagram"  className='display__logo'/>
-                    </a>
-                    <a href="https://www.youtube.com/user/tvuniversidadaustral" target="_BLANK" rel="noreferrer">
-                        <img src={logoYt} alt="YouTube"  className='display__logo'/>
-                    </a>
-                    <a href="https://www.linkedin.com/company/universidad-austral-argentina" target="_BLANK" rel="noreferrer">
-                        <img src={logoWsp} alt="WhatsApp"  className='display__logo'/>
-                    </a>
-                    
-                </p>
-            </div>
         </div>
+        <Footer/>
     </div>
   )
 }
