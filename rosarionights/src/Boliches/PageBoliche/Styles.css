@@ -1,8 +1,8 @@
 .boliches__bg {
   /* background-image: url(./../imgs/Fondo5.png); */
   background-color: #121212;
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
 }
 
 .display__portada {
@@ -15,32 +15,135 @@
   background-position: 0px -20px;
 }
 
-.display__img {
+.display__all {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100vw;
+  background-color: #121212;
+}
+
+.display__menu {
+  margin: 0px;
+  padding: 0px;
+  width: 20%;
+  height: 100vh;
+  background-color: #232323;
+}
+.display__ul {
+  display: block;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+.display__li {
+  width: 94%;
+  height: 60px;
+  text-align: left;
+  padding-left: 20px;
+  padding-top: 30px;
+  cursor: pointer;
+  font-size: 25px;
+  color: #ddd;
+  border: 1px solid #121212;
+}
+
+.display__li:hover {
+  transition: all 0.2s;
+  color: #fff;
+}
+
+.display__r-menu {
+  display: block;
+  width: 80%;
+}
+.display__op {
+  display: flex;
+  flex-wrap: wrap;
+  outline: 5px solid #000;
 }
 
 .title__boliches {
-  font-size: 50px;
   text-align: center;
+  font-size: 50px;
   font-family: "Barlow", sans-serif;
   color: #fff;
 }
 
-.display__op {
-  display: flex;
-  flex-wrap: wrap;
+.display__bx {
+  width: 30%;
+  height: 300px;
+  background-color: #004;
+  margin: 0px;
+  outline: 2px solid #000;
+}
+
+.desc__text {
+  text-align: center;
+  padding: 5px;
+  margin-top: 25px;
+  font-size: 30px;
+  font-family: "Barlow", sans-serif;
+  /* justify-content: center; */
+  /* text-align: left; */
+}
+
+.disp__li {
+  display: inline-block;
   width: 100%;
+  margin-top: 0px;
+  padding: 10px;
+  color: #fff;
+  font-size: 25px;
+  font-family: "Barlow", sans-serif;
 }
 
-.display__box {
-  width: 20%;
-  height: 500px;
+.disp__li > p {
+  margin: 0px;
+  font-size: 25px;
+  font-family: "Barlow", sans-serif;
 }
 
-.display__btt {
-  width: 400px;
-  height: 500px;
-  cursor: pointer;
-  /* border: 3px solid #fff; */
-  outline: 4px solid #fff;
-  border-radius: 30px;
+.displ__li {
+  display: flex;
+  width: 100%;
+  margin-top: 0px;
+  padding: 10px;
+  color: #fff;
+  font-size: 25px;
+  font-family: "Barlow", sans-serif;
+}
+
+.displ__li > p {
+  margin-top: 0px;
+  margin-left: 10px;
+  font-size: 25px;
+  font-family: "Barlow", sans-serif;
+}
+
+.display__mapa {
+  width: 40%;
+  height: 300px;
+  background-color: #000;
+}
+.display__m {
+  width: 99%;
+  height: 300px;
+  text-align: center;
+}
+
+.display__comentarios {
+  width: 100%;
+  height: 400px;
+  display: flex;
+}
+
+.imgs__boliche {
+  width: 50%;
+  background-color: none;
+}
+
+.coments__boliche {
+  width: 50%;
+  background-color: blue;
 }
