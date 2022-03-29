@@ -5,7 +5,7 @@ import Footer from '../../Footer/Footer'
 import NavBar from '../../NavBar/NavBar'
 import Map from './../../Map/Map'
 import credentials from './../../Credentials/CredentialAPI'
-import Carrusel from '../../Carrousel/Carrusel.js';
+import CarruselM from '../../Carrousel/CarruselM';
 
 const mapURL = `https://maps.googleapis.com/maps/api/js?3.exp&key=${credentials.mapsKey}`;
 function BluePark() {
@@ -63,7 +63,7 @@ function BluePark() {
               </div>
               <div className='display__comentarios'>
                 <div className='imgs__boliche'> 
-                  <Carrusel/>
+                  <CarruselM/>
                 </div>
                 <div className='coments__boliche'>
                   
