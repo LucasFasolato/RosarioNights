@@ -6,6 +6,7 @@ import NavBar from '../../NavBar/NavBar'
 import Map from './../../Map/Map'
 import credentials from './../../Credentials/CredentialAPI'
 import CarruselM from '../../Carrousel/CarruselM';
+import CommentBox from '../../CommentBox/CommentBox';
 
 const mapURL = `https://maps.googleapis.com/maps/api/js?3.exp&key=${credentials.mapsKey}`;
 function BluePark() {
@@ -66,7 +67,7 @@ function BluePark() {
                   <CarruselM/>
                 </div>
                 <div className='coments__boliche'>
-                  
+                  <CommentBox />
                 </div>
 
               </div>

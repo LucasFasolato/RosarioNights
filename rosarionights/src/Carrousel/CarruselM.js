@@ -4,57 +4,62 @@ import img1 from "./../Boliches/imgs-boliches/lamarina.png";
 import img2 from "./../Boliches/imgs-boliches/bresh.png";
 import img3 from "./../Boliches/imgs-boliches/mora.png";
 import img4 from "./../Boliches/imgs-boliches/bohemia2.0.png";
-import { useState, useEffect } from 'react';
+import { useState, useEffect} from 'react';
+let indice = 0;
 function CarruselM() {
     const [imagen, setImagen] = useState(img1);
-    let indice = 0;
     const imgs = [img1, img2,img3,img4];
-    let nextImg = () => {
-        console.log(imgs.length-1);
+    
+    const nextImg = () => {
         if (indice === 3) {
           indice=0;  
-          console.log("NEXT: "+indice );
         } else {
           indice = indice+1;  
-          console.log("NEXT: "+indice );
         } 
         setImagen(imgs[indice]);  
     }
 
 
-    let prevImg = () => {
-      console.log(imgs.length-1);
+    const prevImg = () => {
         if (indice === 0) {
           indice=3; 
-          console.log("PREV: "+indice );
         } else {
           indice = indice-1;
-          console.log("NEXT: "+indice );
         }
         setImagen(imgs[indice]);    
     }
 
+    useEffect(() => {
+      const interval = setInterval(() => {
+        nextImg();
+      }, 5000);
+      return () => clearInterval(interval);
+    }, []);
+    
   return (
-    <div className='contenedorPrincipal'>
-      <div className='display__slide'>
+    <div className='contenedorPrincipal' id="disp">
+      <div className='display__slide fadein'>
         <img id="imagen" className='img1' src={imagen}/>
       </div>
-      <div className='display__btt-left'>
-        <button 
-        className='btt__left'
-        onClick={() => {
-          prevImg();
-        }}
-        />
+      <div>
+        <div className='display__btt-left' >
+          <button 
+          className='btt__left display__btt'
+          onClick={() => {
+            prevImg();
+          }}
+          />
+        </div>
+        <div className='display__btt-right display__btt' >
+          <button 
+          className='btt__right' 
+          onClick={() => {
+            nextImg();
+          }} 
+          />
+        </div>
       </div>
-      <div className='display__btt-right'>
-        <button 
-        className='btt__right' 
-        onClick={() => {
-          nextImg();
-        }} 
-        />
-      </div>
+      
         
     </div>
   )
