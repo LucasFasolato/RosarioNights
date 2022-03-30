@@ -32,25 +32,25 @@ function CarruselM() {
     useEffect(() => {
       const interval = setInterval(() => {
         nextImg();
-      }, 5000);
+      }, 4000);
       return () => clearInterval(interval);
     }, []);
     
   return (
     <div className='contenedorPrincipal' id="disp">
       <div className='display__slide fadein'>
-        <img id="imagen" className='img1' src={imagen}/>
+        <img id="imagen" className='img1' src={imagen} alt="imagenes"/>
       </div>
       <div>
         <div className='display__btt-left' >
           <button 
-          className='btt__left display__btt'
+          className='btt__left display__bttn'
           onClick={() => {
             prevImg();
           }}
           />
         </div>
-        <div className='display__btt-right display__btt' >
+        <div className='display__btt-right display__bttn' >
           <button 
           className='btt__right' 
           onClick={() => {

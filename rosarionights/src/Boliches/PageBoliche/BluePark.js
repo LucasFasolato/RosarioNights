@@ -30,13 +30,15 @@ function BluePark() {
             <div className='display__r-menu'>
               <h1 className='title__boliches'>-- BLUE PARK --</h1>
               <div className='display__op'>
-                <div className='display__bx'>
+                <div className='display__x'>
+                <div className='display__info-desc'><h4>DESCRIPTION</h4></div>
                   <p className='desc__text'>A metros de La Florida, BluePark es la mejor opción para disfrutar de una noche en un espacio abierto a metros del río Paraná.
                     <br/>
                     Boliche al aire libre en la zona norte de Rosario, Santa Fe.
                   </p>
                 </div> 
-                <div className='display__bx'>
+                <div className='display__x'>
+                  <div className='display__info-text fade'><h3>IMPORTANT INFO</h3></div>
                   <ul>
                     <li className='disp__li'>
                       Direccion:

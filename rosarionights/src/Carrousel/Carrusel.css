@@ -62,7 +62,7 @@
   background-size: cover;
 }
 
-.display__btt {
+.display__bttn {
   opacity: 0;
   margin: 0;
 }
@@ -74,8 +74,8 @@
 .fadein img {
   animation-name: fade;
   animation-iteration-count: infinite;
-  animation-duration: 5s;
-  animation-delay: 2s;
+  animation-duration: 4s;
+  animation-delay: 0.2s;
 }
 
 @keyframes fade {
