@@ -67,10 +67,10 @@
   margin: 0;
 }
 
-.contenedorPrincipal:hover .display__btt {
+.contenedorPrincipal:hover .display__bttn {
   opacity: 1;
 }
-
+/* 
 .fadein img {
   animation-name: fade;
   animation-iteration-count: infinite;
@@ -91,13 +91,13 @@
   60% {
     opacity: 1;
   }
-  65% {
-    opacity: 0;
+  75% {
+    opacity: 1;
   }
   100% {
     opacity: 0;
   }
-}
+} */
 
 #imagen {
   background-color: black;

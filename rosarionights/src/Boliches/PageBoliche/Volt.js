@@ -10,24 +10,24 @@ import CommentBox from '../../CommentBox/CommentBox';
 import MenuBoliche from '../../MenuBoliche/MenuBoliche';
 
 const mapURL = `https://maps.googleapis.com/maps/api/js?3.exp&key=${credentials.mapsKey}`;
-function BluePark() {
+function Volt() {
   return (
     <div> 
       <div className='boliches__bg'>
         <NavBar />
         <div>
-          <div className='display__portada-blue'>
+          <div className='display__portada-volt'>
           </div>
           <div className='display__all'>
-            <MenuBoliche/>
+            <MenuBoliche/>    
             <div className='display__r-menu'>
-              <h1 className='title__boliches'>-- BLUE PARK --</h1>
+              <h1 className='title__boliches'>-- VOLT --</h1>
               <div className='display__op'>
                 <div className='display__x'>
                 <div className='display__info-desc'><h4>DESCRIPTION</h4></div>
-                  <p className='desc__text'>A metros de La Florida, BluePark es la mejor opción para disfrutar de una noche en un espacio abierto a metros del río Paraná.
+                  <p className='desc__text'>Ubicado en el Alto Rosario, boliche +19.
                     <br/>
-                    Boliche al aire libre en la zona norte de Rosario, Santa Fe.
+                    Boliche cerrado en la zona norte de Rosario, Santa Fe.
                   </p>
                 </div> 
                 <div className='display__x'>
@@ -35,15 +35,15 @@ function BluePark() {
                   <ul>
                     <li className='disp__li'>
                       Direccion:
-                      <p>Av. Carlos Colombres 1756, Rosario, Santa Fe</p>
+                      <p>..., Rosario, Santa Fe</p>
                     </li>
                     <li className='displ__li'>
                       Horario:
-                      <p>23hs a 5hs</p>
+                      <p>00hs a 5hs</p>
                     </li>
                     <li className='displ__li'>
                       Edad:
-                      <p>+18</p>
+                      <p>+19</p>
                     </li>
                   </ul>
                 </div>
@@ -64,11 +64,8 @@ function BluePark() {
                 <div className='coments__boliche'>
                   <CommentBox />
                 </div>
-
               </div>
-            </div> 
-              
-             
+            </div>    
           </div>    
         </div>
       </div>
@@ -77,4 +74,4 @@ function BluePark() {
   )
 }
 
-export default BluePark
+export default Volt

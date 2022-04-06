@@ -28,6 +28,18 @@ function CommentBox() {
                 <p>USER ID</p>
                 <input className='user__box' readOnly="true" disabled="true" placeholder='COMENTARIO...'></input>
             </div> 
+            <div className='comment__input'>
+                <p>USER ID</p>
+                <input className='user__box' readOnly="true" disabled="true" placeholder='COMENTARIO...'></input>
+            </div> 
+            <div className='comment__input'>
+                <p>USER ID</p>
+                <input className='user__box' readOnly="true" disabled="true" placeholder='COMENTARIO...'></input>
+            </div> 
+            <div className='comment__input'>
+                <p>USER ID</p>
+                <input className='user__box' readOnly="true" disabled="true" placeholder='COMENTARIO...'></input>
+            </div> 
         </div>
         <div className='comment__input-box'>
             <input className='input__box' placeholder='Ingrese un comentario..'></input>

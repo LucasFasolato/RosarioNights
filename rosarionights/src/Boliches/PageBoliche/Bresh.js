@@ -10,24 +10,24 @@ import CommentBox from '../../CommentBox/CommentBox';
 import MenuBoliche from '../../MenuBoliche/MenuBoliche';
 
 const mapURL = `https://maps.googleapis.com/maps/api/js?3.exp&key=${credentials.mapsKey}`;
-function BluePark() {
+function Bresh() {
   return (
     <div> 
       <div className='boliches__bg'>
         <NavBar />
         <div>
-          <div className='display__portada-blue'>
+          <div className='display__portada-bresh'>
           </div>
           <div className='display__all'>
             <MenuBoliche/>
             <div className='display__r-menu'>
-              <h1 className='title__boliches'>-- BLUE PARK --</h1>
+              <h1 className='title__boliches'>-- BRESH --</h1>
               <div className='display__op'>
                 <div className='display__x'>
                 <div className='display__info-desc'><h4>DESCRIPTION</h4></div>
-                  <p className='desc__text'>A metros de La Florida, BluePark es la mejor opción para disfrutar de una noche en un espacio abierto a metros del río Paraná.
+                  <p className='desc__text'>Boliche internacional, que se lleva a cabo en el salón de las artes, ubicado en pichincha.
                     <br/>
-                    Boliche al aire libre en la zona norte de Rosario, Santa Fe.
+                    Boliche cerrado en ubicado en pichincha, Rosario, Santa Fe.
                   </p>
                 </div> 
                 <div className='display__x'>
@@ -35,7 +35,7 @@ function BluePark() {
                   <ul>
                     <li className='disp__li'>
                       Direccion:
-                      <p>Av. Carlos Colombres 1756, Rosario, Santa Fe</p>
+                      <p>..., Rosario, Santa Fe</p>
                     </li>
                     <li className='displ__li'>
                       Horario:
@@ -77,4 +77,4 @@ function BluePark() {
   )
 }
 
-export default BluePark
+export default Bresh

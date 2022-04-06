@@ -19,32 +19,39 @@ function Boliches() {
                         </a>   
                     </div>
                     <div className='display__box'>
-                        <button className='display__btt fondo__volt'> 
-                        </button>
+                        <a onClick={() => navigate("/home/boliches/volt")}>
+                            <button className='display__btt fondo__volt'/>
+                        </a>  
                     </div>
                     <div className='display__box'>
-                        <button className='display__btt fondo__bresh'> 
-                        </button>
+                        <a onClick={() => navigate("/home/boliches/bresh")}>
+                            <button className='display__btt fondo__bresh'/>
+                        </a> 
                     </div>
                     <div className='display__box'>
-                        <button className='display__btt fondo__bohemia'> 
-                        </button>
+                        <a onClick={() => navigate("/home/boliches/bohemia")}>
+                            <button className='display__btt fondo__bohemia'/>
+                        </a> 
                     </div>
                     <div className='display__box'>
-                        <button className='display__btt fondo__mora'> 
-                        </button>
+                        <a onClick={() => navigate("/home/boliches/mora")}>
+                            <button className='display__btt fondo__mora'/>
+                        </a>
                     </div>
                     <div className='display__box'>
-                        <button className='display__btt fondo__lamarina'> 
-                        </button>
+                        <a onClick={() => navigate("/home/boliches/lamarina")}>
+                            <button className='display__btt fondo__lamarina'/>
+                        </a>
                     </div>
                     <div className='display__box'>
-                        <button className='display__btt fondo__bound'> 
-                        </button>
+                        <a onClick={() => navigate("/home/boliches/bound")}>
+                            <button className='display__btt fondo__bound'/>
+                        </a>
                     </div>
                     <div className='display__box'>
-                        <button className='display__btt fondo__wallas'> 
-                        </button>
+                        <a onClick={() => navigate("/home/boliches/wallas")}>
+                            <button className='display__btt fondo__wallas'/>
+                        </a>
                     </div>
                 </div>
             </div>

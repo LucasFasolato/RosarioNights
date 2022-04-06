@@ -1,0 +1,32 @@
+
+.display__menu {
+    margin: 0px;
+    padding: 0px;
+    width: 20%;
+    height: 100vh;
+    background-color: #232323;
+  }
+  .display__ul {
+    display: block;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  .display__li {
+    width: 94%;
+    height: 60px;
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 30px;
+    cursor: pointer;
+    font-size: 25px;
+    color: #ddd;
+    border: 1px solid #121212;
+  }
+  
+  .display__li:hover {
+    transition: all 0.2s;
+    color: #fff;
+    background-color: #121212;
+  }

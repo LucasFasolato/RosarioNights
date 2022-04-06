@@ -5,9 +5,79 @@
   height: 100%;
 }
 
-.display__portada {
+.display__portada-blue {
   display: block;
   background-image: url(./../imgs-boliches/blue.png);
+  width: 100vw;
+  height: 300px;
+  max-height: 200px;
+  background-size: contain;
+  background-position: 0px -20px;
+}
+
+.display__portada-volt {
+  display: block;
+  background-image: url(./../imgs-boliches/volt.png);
+  width: 100vw;
+  height: 300px;
+  max-height: 200px;
+  background-size: contain;
+  background-position: 0px -20px;
+}
+
+.display__portada-bresh {
+  display: block;
+  background-image: url(./../imgs-boliches/bresh.png);
+  width: 100vw;
+  height: 300px;
+  max-height: 200px;
+  background-size: contain;
+  background-position: 0px -20px;
+}
+
+.display__portada-bohemia {
+  display: block;
+  background-image: url(./../imgs-boliches/bohemia2.0.png);
+  width: 100vw;
+  height: 300px;
+  max-height: 200px;
+  background-size: contain;
+  background-position: 0px -20px;
+}
+
+.display__portada-mora {
+  display: block;
+  background-image: url(./../imgs-boliches/mora.png);
+  width: 100vw;
+  height: 300px;
+  max-height: 200px;
+  background-size: contain;
+  background-position: 0px -20px;
+}
+
+.display__portada-lamarina {
+  display: block;
+  background-image: url(./../imgs-boliches/lamarina.png);
+  width: 100vw;
+  height: 300px;
+  max-height: 200px;
+  background-size: contain;
+  background-position: 0px -20px;
+}
+
+.display__portada-wallas {
+  display: block;
+  background-image: url(./../imgs-boliches/wallas.png);
+  width: 100vw;
+  height: 300px;
+  max-height: 200px;
+  background-size: contain;
+  background-position: 0px -20px;
+}
+
+.display__portada-bound {
+  display: block;
+  background-image: url(./../imgs-boliches/bound.png);
   width: 100vw;
   height: 300px;
   max-height: 200px;
@@ -78,7 +148,8 @@
   cursor: pointer;
   opacity: 1;
   transition: opacity 0.5s;
-  border-top: 2px solid #fff;
+  border: 2px solid #fff;
+  border-left: none;
 }
 
 .display__info-text {
@@ -89,8 +160,8 @@
   cursor: pointer;
   opacity: 1;
   transition: opacity 0.5s;
-  border-left: 2px solid #fff;
-  border-top: 2px solid #fff;
+  border: 2px solid #fff;
+  border-right: none;
 }
 
 h4 {
@@ -190,6 +261,11 @@ h3 {
   text-align: center;
   outline: none;
   border: none;
+}
+
+.display__space {
+  height: 100px;
+  width: 100vw;
 }
 
 .display__comentarios {

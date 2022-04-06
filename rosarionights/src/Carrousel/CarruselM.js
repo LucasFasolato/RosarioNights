@@ -32,7 +32,7 @@ function CarruselM() {
     useEffect(() => {
       const interval = setInterval(() => {
         nextImg();
-      }, 4000);
+      }, 7000);
       return () => clearInterval(interval);
     }, []);
     
